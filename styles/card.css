@@ -1,0 +1,83 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco-principal);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__titulo{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--laranja-item);
+    line-height: normal;
+}
+
+.card__titulo-livro{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--azul-item);
+    line-height: normal;
+    margin: 0.5em 0em;
+}
+
+.card__paragrafo{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--preto-item);
+    margin-bottom: 0.5rem;
+}
+
+.card__icone{
+    width: 25px;
+    margin: 13.5px;
+}
+
+.card__link{
+    font-size: 1.25rem;
+    width: 120px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: var(--azul-item);
+    color: var(--branco-principal);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card__link:hover{
+    background-color: var(--laranja-item);
+    color: var(--preto-item);
+}
+
+
+.card__img{
+    margin-bottom: 10px;
+}
+
+.card__conteudo-largura{
+    width: 90%;
+}
+
+@media screen and (min-width: 400px) {
+    .card__conteudo-largura{
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .card{
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
