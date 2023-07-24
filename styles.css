@@ -6,12 +6,16 @@
 @import url('./styles/topico.css');
 @import url('./styles/contato.css');
 @import url('./styles/footer.css');
+@import url('./styles/acesso.css');
+@import url('./styles/navegacao.css');
+@import url('./styles/biblioteca.css');
 
 :root{
     --branco-principal: rgb(255, 255, 255);
     --cor-de-fundo: #ffffff;
     --laranja-item: #EB9B00;
     --cor-link-preto: black;
+    --cor-cinza-claro: rgb(236, 236, 236);
     --cor-cinza: #cccccc;
     --cor-cinza-medio: #858585;
     --cor-link-azul: #002F52;

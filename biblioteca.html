@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biblioteca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="cordefundo">
+
+    <header class="cabecalho">
+
+        <div class="container">
+            <input type="checkbox" id="menu" class="menu__botao">
+            <label for="menu" class="hamburguer__close">
+                <span class="menu__hamburguer"></span>
+            </label>
+
+            <div class="navegacao__menu">
+                <ul class="lista__menu">
+
+                    <div class="lista__login">
+                        <a class="lista__item-menu-login lista__login-destaque" href="#">Assinar</a>
+                        <a class="lista__item-menu-login" href="#">Login</a>
+                    </div>
+
+                    <li class="lista__item-titulo" >
+                        <p class="navegacao__menu-titulo">Categorias</p>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="#">Programação</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="#">Front-end</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="#">Infraestrutura</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="#">Business</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="#">Ux-design</a>
+                    </li>
+
+                    <div class="main__separador"></div>
+                    
+                    <!--OS ESTILOS DESSA LISTA/DIVISAO ESTÃO EM: "navegacao.css"-->
+                    <div class="lista__item-secao">
+                        <a class="secao__item" href="#">
+                            <img src="./img/icons/manual.svg" alt="Manual do usuário">
+                            <p>Manual do usuário</p>
+                        </a>
+                        <a class="secao__item" href="#">
+                            <img src="./img/icons/autor.svg" alt="Ferramentas do autor">
+                            <p>Ferramentas do autor</p>
+                        </a>
+                        <a class="secao__item" href="#">
+                            <img src="./img/icons/privacidade.svg" alt="Política de privacidade">
+                            <p>Política de privacidade</p>
+                        </a>
+                        <a class="secao__item" href="#">
+                            <img src="./img/icons/newsletter.svg" alt="Suporte">
+                            <p>Suporte</p>
+                        </a>
+                    </div>
+
+                </ul>
+            </div>
+            
+            <a class="botao__voltar" href="./index.html">Página inicial</a>
+
+        </div>
+
+        <div class="container">
+            <a class="container__icone" href="#">
+                <img class="img__icone" src="./img/icons/favorite.svg" alt="Favoritos">
+                <p class="container__icone-texto">Favoritos</p>
+            </a>
+            <a class="container__icone" href="#">
+                <img class="img__icone" src="./img/icons/bag.svg" alt="Meu carrinho">
+                <p class="container__icone-texto">Meu carrinho</p>
+            </a>
+
+            <div class="separador"></div>
+            
+            <div class="container__login">
+                <a class="container__login-texto" href="#">Login</a>
+                <a class="container__login-texto login__destaque" href="#">Assinar</a>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="main-livro">
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Acessibilidade.svg" alt="Acessibilidade na Web">
+                    <h3 class="livro__titulo">Acessibilidade na Web</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Javascript.svg" alt="Javascript">
+                    <h3 class="livro__titulo">Javascript Assertivo</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Angular.svg" alt="Angular 11 e Firebase">
+                    <h3 class="livro__titulo">Angular 11 e Firebase</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+            
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/ApacheKafka.svg" alt="ApacheKafka e Spring Boot">
+                    <h3 class="livro__titulo">ApacheKafka e Spring Boot</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Arquitetura.svg" alt="Arquitetura de software distribuído">
+                    <h3 class="livro__titulo">Arquitetura de software distribuído</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Construct2.svg" alt="Construct 2">
+                    <h3 class="livro__titulo">Construct 2</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Gestão.svg" alt="Gestão de produtos">
+                    <h3 class="livro__titulo">Gestão de produtos</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Guia Front-end.svg" alt="Guia Front-End">
+                    <h3 class="livro__titulo">Guia Front-End</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Liderança.svg" alt="Liderança em Design">
+                    <h3 class="livro__titulo">Liderança em Design</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/MEAN.svg" alt="MEAN">
+                    <h3 class="livro__titulo">MEAN</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/MetricasAgeis.svg" alt="Métrica Ágeis">
+                    <h3 class="livro__titulo">Métrica Ágeis</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Portugol.svg" alt="Lógica de programação em Portugol">
+                    <h3 class="livro__titulo">Lógica de programação em Portugol</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/ReactNative.svg" alt="React Native">
+                    <h3 class="livro__titulo">React Native</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+            
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/Tuning.svg" alt="Tuning de SQL">
+                    <h3 class="livro__titulo">Tuning de SQL</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+            
+            <section class="livro">
+                <div class="livro__item">
+                    <img class="livro__imagem" src="./img/images/UX.svg" alt="UX Estratégico">
+                    <h3 class="livro__titulo">UX Estratégico</h3>
+                    <button class="livro__botao">
+                        <img class="livro__botao-icone" src="./img/icons/bag.svg" alt="Adicionar ao carrinho">
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="livro__botao add">
+                        <img class="livro__botao-icone" src="./img/icons/Add.svg" alt="Acionar ao carrinho">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+    
+</body>

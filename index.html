@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="cordefundo">
     
@@ -22,40 +22,40 @@
 
             <div class="navegacao__menu">
                 <ul class="lista__menu">
-                    <li class="lista__item-titulo" >
-                            <p class="navegacao__menu-titulo">Categorias</p>
-                    </li>
-                    <li class="lista__item" >
-                            <a class="navegacao__menu-item" href="#">Programação</a>
-                    </li>
-                    <li class="lista__item" >
-                            <a class="navegacao__menu-item" href="#">Front-end</a>
-                    </li>
-                    <li class="lista__item" >
-                            <a class="navegacao__menu-item" href="#">Infraestrutura</a>
-                    </li>
-                    <li class="lista__item" >
-                            <a class="navegacao__menu-item" href="#">Business</a>
-                    </li>
-                    <li class="lista__item" >
-                            <a class="navegacao__menu-item" href="#">Ux-design</a>
-                    </li>
-                    
+
                     <div class="lista__login">
-                        <li class="lista__login-item">
-                            <a class="lista__item-menu-login lista__login-destaque" href="#">Assinar</a>
-                        </li>
-                        <li class="lista__login-item">
-                            <a class="lista__item-menu-login" href="#">Login</a>
-                        </li>
+                        <a class="lista__item-menu-login lista__login-destaque" href="#">Assinar</a>
+                        <a class="lista__item-menu-login" href="#">Login</a>
                     </div>
+
+                    <li class="lista__item-titulo" >
+                        <p class="navegacao__menu-titulo">Categorias</p>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="./biblioteca.html">Programação</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="./biblioteca.html">Front-end</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="./biblioteca.html">Infraestrutura</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="./biblioteca.html">Business</a>
+                    </li>
+                    <li class="lista__item" >
+                        <a class="navegacao__menu-item" href="./biblioteca.html">Ux-design</a>
+                    </li>
+                
                 </ul>
             </div>
             
             <img class="logo" src="./img/icons/logo.svg" alt="AluraBooks">
             
             <h1 class="cabecalho__titulo">
-                <strong class="cabecalho__titulo-destaque">Alura</strong>Books
+                <a href="./index.html" class="link__titulo">
+                    <strong class="cabecalho__titulo-destaque">Alura</strong>Books
+                </a>
             </h1>
 
         </div>
@@ -92,7 +92,6 @@
             <input type="search" placeholder="O que você procura?" id="search" class="banner__pesquisa">
         </section>
 
-        <section>
         <section>
             <h2 class="swiper__titulo">Últimos lançamentos</h2>
         </section>
@@ -138,7 +137,7 @@
                 <!--Segunda coluna-->
                 <div class="card__conteudo">
                     <img class="card__img" src="./img/images/card-angular11.svg" alt="Angular 11">
-                    <a class="card__link" href="#">Saiba mais</a>
+                    <a class="card__link" href="./biblioteca.html">Saiba mais</a>
                 </div>
                 
             </section>
@@ -192,6 +191,13 @@
             </section>
         </section>
 
+        <section class="acesso__biblioteca">
+            <div class="acesso__biblioteca-conteudo">
+                <h3 class="acesso__biblioteca-titulo">Quer ver mais?</h3>
+            </div>
+            <a class="acesso__biblioteca-link" href="./biblioteca.html">Acesse nossa biblioteca on-line</a>
+        </section>
+
         <section class="topico">
             <h3 class="topico__titulo">Tópicos mais visitados</h3>
 
@@ -233,7 +239,7 @@
                 <a class="footer__link" href="#">Caelum</a>
             </div>
             <div class="footer__item">
-                <img src="./img/icons/CasaDoCodigo.svg" alt="Casa od Código">
+                <img src="./img/icons/CasaDoCodigo.svg" alt="Casa do Código">
                 <a class="footer__link" href="#">Casa do Código</a>
             </div>
         </div>
